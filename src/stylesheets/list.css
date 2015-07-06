@@ -1,0 +1,12 @@
+.item:nth-child(3n) {
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.item--clicked {
+    padding: 10px 0px 15px 5px;
+    border-left: 5px solid silver;
+    color: #abcdef;
+    background: whitesmoke;
+    font-weight: bold;
+}
